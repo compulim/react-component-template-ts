@@ -1,0 +1,28 @@
+{
+  "name": "my-component",
+  "version": "0.0.1-0",
+  "description": "",
+  "keywords": [],
+  "main": "lib/index.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
+    "test": "lerna run test"
+  },
+  "author": "William Wong <compulim@hotmail.com> (http://compulim.info/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/compulim/my-component.git"
+  },
+  "bugs": {
+    "url": "https://github.com/compulim/my-component/issues"
+  },
+  "homepage": "https://github.com/compulim/my-component#readme",
+  "devDependencies": {
+    "lerna": "^2.11.0"
+  }
+}
